@@ -1,0 +1,8 @@
+mocha/**/*.ts
+--reporter mochawesome
+--reporter-options reportFilename=mocha/.tmp/report
+--reporter-options reportDir=mocha/.tmp/report
+--reporter-options charts=true
+--reporter-options overwrite=true
+--require mocha/tshook.js
+--timeout 35000
